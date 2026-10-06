@@ -1,6 +1,39 @@
-models/model.pkl
+# Data files (too large for git)
 data/*.csv
+
+# Trained models (too large for git)
+models/*.pkl
+
+# Python
 __pycache__/
-*.pyc
-.DS_Store
 */__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
